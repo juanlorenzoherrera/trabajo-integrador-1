@@ -1,11 +1,35 @@
-.barrasup {
-    background-color: rgba(0, 0, 0, 0.948);
+body{
+    background-color: aqua;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:black
 }
 
-.formularios {
-   width: 190px;
-    background-color: rgb(9, 9, 238);
-    background-position: center;
-    line-height: 30px;
+header{
+    display: flex;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right:15px;
+}
+
+nav a:hover{
+    color: aqua;
+}
