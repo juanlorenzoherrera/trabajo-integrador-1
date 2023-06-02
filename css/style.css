@@ -1,35 +1,78 @@
 body{
-    background-color: aqua;
-    margin: 0;
-}
-a{
-    text-decoration: none;
-    color:black
+    background-color: #EAC09B;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 header{
     display: flex;
     height: 70px;
-    background-color: blueviolet;
+    background-color: #E8AAB3;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    color:black
+}
+
 .logo{
     display: flex;
     align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.logo :hover{
+    color: #EF6A96;
 }
 
 .logo img {
     height: 50px;
     margin-right: 10px;
 }
+
 nav a{
     font-weight: 600;
     padding-right:15px;
 }
 
 nav a:hover{
-    color: aqua;
+    color: #EF6A96;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.imgprin{
+   background-image: url(../imagen/imgprincipal.jpg);
+   height: 500px;
+   padding-left: 25%;
+   padding-top: 25%;
+   font-size: 50px;
+   font-family: cursive;
+}
+
+.imgprin :hover{
+    color: #EF6A96;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.textprinc{
+    background-color: #E8AAB3;
+    color:black;
+    border-radius: 10px;
+    
+}
+
+.contenedor1 {
+    display: flex;
+    margin: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.undercontenedor {
+    background-color: #605465;
+    margin: 10px;
 }
