@@ -21,8 +21,10 @@ a{
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
+
 .logo :hover{
     color: #EF6A96;
 }
@@ -30,6 +32,7 @@ a{
 .logo img {
     height: 50px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 nav a{
@@ -40,8 +43,11 @@ nav a{
 nav a:hover{
     color: #EF6A96;
     background-color: black;
-    border-radius: 20%;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
+
+/*fin del nav, comienzo de imagen principal*/
 
 .imgprin{
    background-image: url(../imagen/imgprincipal.jpg);
@@ -50,29 +56,88 @@ nav a:hover{
    padding-top: 25%;
    font-size: 50px;
    font-family: cursive;
+   background-repeat: no-repeat;
 }
 
 .imgprin :hover{
     color: #EF6A96;
     background-color: black;
-    border-radius: 20%;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.tituloind{
+    background-color:black;
+    color: #EF6A96;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-block: 10px;
+}
+
+.ttitulo{
+    color: #EF6A96;
+
 }
 
 .textprinc{
     background-color: #E8AAB3;
     color:black;
-    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
     
 }
 
 .contenedor1 {
     display: flex;
-    margin: 10%;
-    height: 100%;
+    padding-left: 2%;
+}
+
+.etiquetas {
     text-align: center;
 }
 
-.undercontenedor {
-    background-color: #605465;
-    margin: 10px;
+#conteitemcarrusel{
+    height: 400px;
+    width: 1200;
+    overflow: hidden;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:#EF6A96;
 }
+
+.itemcarrusel {
+    height: 100%;
+    position: relative;
+}
+
+.imgcarrusel {
+    display: flex;
+    padding: 2%;
+    border-radius: 30%;
+}
+
+.flechas {   
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pflechas {
+    border-radius: 50%;
+}
+
+#tarjetacarrusel-1, #tarjetacarrusel-2, #tarjetacarrusel-3 {
+    background-color:#EF6A96;
+}
+
+
