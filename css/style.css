@@ -6,10 +6,11 @@ body{
 header{
     display: flex;
     height: 70px;
-    background-color: #E8AAB3;
+    background-color: #FF79B4;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
 }
 
 a{
@@ -93,6 +94,8 @@ nav a:hover{
     
 }
 
+/*carrusel*/
+
 .contenedor1 {
     display: flex;
     padding-left: 2%;
@@ -119,7 +122,7 @@ nav a:hover{
 .imgcarrusel {
     display: flex;
     padding: 2%;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 .flechas {   
@@ -136,8 +139,101 @@ nav a:hover{
     border-radius: 50%;
 }
 
-#tarjetacarrusel-1, #tarjetacarrusel-2, #tarjetacarrusel-3 {
+#tarjetacarrusel-1, #tarjetacarrusel-2, #tarjetacarrusel-3, #tarjetacarrusel-4 {
     background-color:#EF6A96;
+}
+/*contacto y registro*/
+.formularios {
+    background-color: #FF79B4;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    text-align: center;
+}
+
+.formularios form {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.usuario {
+    position: relative;
+    border-bottom: 2px solid #CA3A67;
+    margin: 30px 0;
+}
+
+.usuario input {
+    margin-top: 1%;
+    text-align: center;
+    width: 80%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.usuario textarea {
+    margin-top: 1%;
+    text-align: center;
+    width: 80%;
+    padding: 0 5px;
+    height: 60px;
+    font-size: 16px;
 }
 
 
+
+
+
+/*fin del body*/
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: #FF79B4;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cosas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: static;
+}
+
+
+.redes {
+    display: flex;
+    padding-right:100px;
+    padding: 20px;
+    align-items: center;
+}
+
+.face {
+    align-items: center;
+    padding: 20px;
+}
+
+.face:hover {
+    background-color: #1877F2;
+    border-radius: 100px;
+    padding-bottom: 30px;
+}
+
+.insta {
+    padding: 20px;
+}
+
+.insta:hover {
+    border-radius: 100px;
+    background: #CA3A67;
+    padding-bottom: 30px;
+}
+
+.wsp {
+    padding: 20px;
+}
+
+.wsp:hover {
+    padding-bottom: 30px;
+}
